@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#" class="nav-link resume-btn">
+                    <i class="fas fa-download"></i>
+                    Resume
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-subtitle">MY NAME IS</p>
+                <h1 class="hero-title">Mohammad Kiflin </h1>
+                <h1 class="hero-title"><span class="highlight">Nadil Mahdiali</span></h1>
+                <p class="hero-description">
+                    Creative front-end developer with more than +5 years of experience in enterprise 
+                    companies and startups. Proficient in Javascript and React. Passionate about 
+                    creating exceptional user experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                    <a href="#portfolio" class="btn btn-secondary">
+                        <i class="fas fa-eye"></i>
+                        View Portfolio
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="workspace-illustration">
+                    <div class="illustration-card card-1">
+                        <h3>Web Development</h3>
+                        <p>Laravel • Tailwind CSS </p>
+                        <div style="margin-top: 16px;">
+                            <i class="fas fa-code" style="font-size: 32px; opacity: 0.3;"></i>
+                        </div>
+                    </div>
+                    <div class="illustration-card card-2">
+                        <h4 style="margin-bottom: 12px; color: var(--accent-color);">Mobile App Development</h4>
+                        <p style="color: var(--text-light); font-size: 14px;">Flutter</p>
+                        <i class="fas fa-mobile-alt" style="position: absolute; bottom: 16px; right: 16px; color: var(--primary-color);"></i>
+                    </div>
+                    <div class="illustration-card card-3">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <i class="fas fa-laptop-code" style="color: var(--primary-color);"></i>
+                            <span style="font-weight: 600; color: var(--accent-color);">5+ Years</span>
+                        </div>
+                        <p style="color: var(--text-light); font-size: 12px; margin-top: 8px;">Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">SERVICES</p>
+                <h2 class="section-title">What I Do Best</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Developing mobile-first responsive websites that work seamlessly across all devices and screen sizes for optimal user experience.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Building responsive and performant web applications using modern frameworks like React, Vue, and Angular with clean code practices.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>System Analytics</h3>
+                    <p>Creating intuitive and beautiful user interfaces that provide exceptional user experiences across all platforms and devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">MY WORK</p>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image agency-website"></div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>FurniCycle</h3>
+                            <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <p>A modern agency website featuring dynamic animations, responsive design, and optimized performance. Built with React and styled with Tailwind CSS for a professional look.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image landing-page"></div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>DikaWaroong.in</h3>
+                            <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <p>High-converting SaaS landing page with integrated CMS, analytics tracking, and conversion optimization. Features smooth animations and mobile-first design.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image dashboard-admin"></div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Aquanest</h3>
+                            <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag"></span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                        <p>Comprehensive admin dashboard with data visualization, user management, and real-time analytics. Built with TypeScript for better code reliability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">EXPERTISE</p>
+                <h2 class="section-title">Skills & Education</h2>
+            </div>
+            <div class="skills-content">
+                <div class="education">
+                    <div class="education-item fade-in">
+                        <h3>Jember University</h3>
+                        <p class="degree">Bachelor's Degree - Computer Science</p>
+                        <p class="year">2023 - Present</p>
+                    </div>
+                    <div class="education-item fade-in">
+                        <h3>Tech Bootcamp</h3>
+                        <p class="degree">Full Stack Web Development</p>
+                        <p class="year">2018 - 2019</p>
+                    </div>
+                    <div class="education-item fade-in">
+                        <h3>Online Certification</h3>
+                        <p class="degree">Advanced React & JavaScript</p>
+                        <p class="year">2020 - Present</p>
+                    </div>
+                </div>
+                <div class="skills-info">
+                    <p>For 5+ years, I have been continuously learning and growing in the field of frontend development, experimenting with new technologies and frameworks. Here's a summary of my technical expertise and the tools I work with daily.</p>
+                    <div class="skills-list">
+                        <div class="skills-column">
+                            <ul>
+                                <li>Laravel</li>
+                                <li>HTML</li>
+                                <li>Tailwind CSS & SCSS</li>
+                                <li>REST APIs</li>
+                                <li>MySQL & PostgreSQL</li>
+                            </ul>
+                        </div>
+                        <div class="skills-column">
+                            <ul>
+                                <li>Flutter</li>
+                                <li>Dart</li>
+                                <li>C#</li>
+                                <li>Python</li>
+                                <li>Git & GitHub</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">GET IN TOUCH</p>
+                <h2 class="section-title">Let's Work Together</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form fade-in">
+                    <h3>Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Jember, East Java<br>Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+62 852 3491 7876</p>
+                        </div>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>kiflinnadil@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Availability</h3>
+                            <p>Mon - Fri: 9:00 AM - 6:00 PM<br>Weekend: By appointment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <p>&copy; 2024 Dimas Abimanyu. All rights reserved. Made with ❤️</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
